@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The degrees of consanguinity and affinity described and delineated / by Robert Dixon ...</title>
+            <author>Dixon, Robert, d. 1688.</author>
+         </titleStmt>
+         <extent>Approx. 41 KB of XML-encoded text transcribed from 29 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A36183</idno><idno type="EEBO-CITATION">11795034</idno>
+  <idno type="VID">49286</idno>
+  <idno type="EEBO-PROQUEST">2240872562</idno>
+  
+            <idno type="STC">Wing D1746</idno>
+            <idno type="STC">ESTC R5576</idno>
+            <idno type="OCLC">11795034</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-e"/>
+            <note>(EEBO-TCP ; phase 2, no. A36183)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 49286)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 529:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The degrees of consanguinity and affinity described and delineated / by Robert Dixon ...</title>
+                  <author>Dixon, Robert, d. 1688.</author>
+               </titleStmt>
+               <extent>[2], 50 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by T.R. and N.T. for Benjamin Took ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1674.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Includes tables.</note>
+                  <note>Reproduction of original in Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="topical_term">Consanguinity.</term>
+               <term type="topical_term">Affinity (Law)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-07 </date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2015-01 </date>
+            <label>John Latta </label>Sampled and proofread </change>
+         <change>
+            <date>2015-01 </date>
+            <label>John Latta</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:49286:1"/>
+            <pb facs="tcp:49286:1"/>
+            <p>THE DEGREES OF Consanguinity AND AFFINITY.</p>
+            <p>Described, and Delineated.</p>
+            <p>BY <hi>ROBERT DIXON,</hi> D. D.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>T. R.</hi> and <hi>N. T.</hi> for <hi>Benjamin Took</hi> at the <hi>Ship</hi> in St. <hi>Pauls Church Yard,</hi> 1674.</p>
+         </div>
+         <div type="chart">
+            <pb facs="tcp:49286:2"/>
+            <pb facs="tcp:49286:2"/>
+            <p>
+               <figure>
+                  <figDesc>Chart of genealogical relationships</figDesc>
+                  <p>
+                     <list>
+                        <head>Right Line. Ascending</head>
+                        <item>Great Grandfater.
+<list>
+                              <item>Great Uncles, Grandfather, Great Aunts, unequal. Uncles. Father. Aunts.
+<list>
+                                    <item>Brother. Equal Brothers Son.
+<list>
+                                          <item>Nephews.</item>
+                                          <item>Neeces.</item>
+                                       </list>
+                                    </item>
+                                    <item>□
+<list>
+                                          <item>Son.
+<list>
+                                                <item>Grandson.
+<list>
+                                                      <item>Great Grandson.</item>
+                                                   </list>
+                                                </item>
+                                             </list>
+                                          </item>
+                                       </list>
+                                    </item>
+                                    <item>Sister.Equal Sisters Son.
+<list>
+                                          <item>Neeces.</item>
+                                          <item>Nephews.</item>
+                                       </list>
+                                    </item>
+                                 </list>
+                              </item>
+                           </list>
+                        </item>
+                        <trailer>Right Line. Descending.</trailer>
+                     </list>
+                  </p>
+               </figure>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="treatise">
+            <pb facs="tcp:49286:3"/>
+            <pb n="1" facs="tcp:49286:3"/>
+            <head>OF Consanguinity, OR, Of <hi>Kindred by Blood.</hi>
+            </head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>LEVIT. XVIII. VI.</hi>
+                  </bibl>
+                  <p>None of you shall approach to any that is near of Kin to him, <hi>&amp;c.</hi>
+                  </p>
+               </q>
+            </epigraph>
+            <p>THE <hi>Septuagint</hi> render it, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp;c. Or, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. The Latine. <hi>Vir, Vir non accedit ad Propinquitatem car<g ref="char:EOLhyphen"/>nis suae.</hi> 1. To her that is so near of kin, as that they dwell in the same House; as Parents, Children, Brothers and Sisters; or the Pa<g ref="char:EOLhyphen"/>rents
+<pb n="2" facs="tcp:49286:4"/>Brothers and Sisters, or Un<g ref="char:EOLhyphen"/>cles and Aunts.</p>
+            <p>Nearness of flesh above me, is my Mother; below me, is my Daughter; on my side, is my Si<g ref="char:EOLhyphen"/>ster.</p>
+            <p>These may not be approached, for their own sakes, being Imme<g ref="char:EOLhyphen"/>diate Relations, and all else that are forbidden,<note place="margin">Lev. 22.2.</note> are forbidden for the sakes of these.</p>
+            <p>And that this is properly near<g ref="char:EOLhyphen"/>ness of kin, or flesh, may appear by the Prohibition to the High-Priest, that he may not be defiled for the Dead among his people, but for his Kin, that is near unto him he may; For his Mother and Father, for his Son and Daughter, for his Brother and [Virgin] Si<g ref="char:EOLhyphen"/>ster.</p>
+            <p>So that Nearness of Flesh, is</p>
+            <p n="1">1. <hi>She out of whose Flesh I am born.</hi>
+               <note place="margin">Mother.</note>
+            </p>
+            <p n="2">
+               <pb n="3" facs="tcp:49286:4"/> 2. <hi>She that is Born out of my Flesh.</hi>
+               <note place="margin">Daughter</note>
+            </p>
+            <p n="3">3. <hi>She that is immediately Born of the same Flesh that I am Born of.</hi>
+               <note place="margin">Sister.</note>
+            </p>
+            <p>Now to keep men from this Nearness, God hath set this Bar or <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, of Uncles and Aunts, whose Marriages are therefore forbidden to keep men farther off, from Father and Mother, Son and Daughter, and because they are <hi>Quasi Parentes, &amp; Loco Paren<g ref="char:EOLhyphen"/>tum.</hi> So have some men, not God, made a Bar of <hi>Cosin Germans,</hi> to keep men off from Brother and Sister.</p>
+            <p>So the <hi>Jews</hi> were forbidden to make an Image, as a Bar to keep them from Idolatry.</p>
+            <p>In the <hi>Levitical</hi> Law there<g ref="char:EOLhyphen"/>fore are forbidden these Near<g ref="char:EOLhyphen"/>nesses.</p>
+            <p n="1">
+               <pb n="4" facs="tcp:49286:5"/> 1. In the Ascending Line, Fa<g ref="char:EOLhyphen"/>thers and their Children, and their Allies.</p>
+            <p n="2">2. In the Equal Side-Line, Bro<g ref="char:EOLhyphen"/>thers and Sisters, and their Allies.</p>
+            <p n="3">3. In the Unequal Side-Line, Uncles and Aunts, and their Al<g ref="char:EOLhyphen"/>lies.</p>
+            <div type="part">
+               <head>No Cosin Germans at all.</head>
+               <p>By the Civil Law the same Nearnesses are forbidden, and no farther; excepting as <hi>Ʋlpian</hi> in his Rules observes, thus: <hi>In Quarto [Gradu] permittitur [Con<g ref="char:EOLhyphen"/>nubium] extra eos Personas quae Pa<g ref="char:EOLhyphen"/>rentum Leberorumque locum habent.</hi> Therefore says he, The Great Aunt by the Fathers and by the Mothers side, and the Sisters Neece may not Marry, <hi>Quamvis quarto gradu sint,</hi> because the Prohibition is not alwayes for the
+<pb n="5" facs="tcp:49286:5"/>Nearness, or for the Degree, but for the proper Reason aforesaid, of being <hi>Vivi Parentes,</hi> or <hi>Quasi Parentes.</hi> Ther fore supposing a Woman to Live to see Six De<g ref="char:EOLhyphen"/>grees of her Line, yet it is unlaw<g ref="char:EOLhyphen"/>ful for her to Marry that Sixth Degree of her Nephews.</p>
+               <p>In Cosins in the Equal Side-Lines, the farther off the less rea<g ref="char:EOLhyphen"/>son they should be forbidden, but in Uncles and Aunts in the Descending unequal Side-Lines, the farther off the greater reason they should be forbidden.</p>
+               <p>Therefore there is no compari<g ref="char:EOLhyphen"/>son between the Cognation of Uncles and Aunts, and their Ne<g ref="char:EOLhyphen"/>phews or Neeces, in the unequal Descending Side-Lines, and the Cognation of Cosins in the Equal Side Lines.</p>
+               <p>It is true, <hi>In pari Cognationis gradu, paridemque jus Statuatur:</hi>
+                  <pb n="6" facs="tcp:49286:6"/>That is when the Cognation is the same, the Law is the same too, meaning if it be measured in the same kind of Cognation, Ascend<g ref="char:EOLhyphen"/>ing compared to Ascending; E<g ref="char:EOLhyphen"/>qual Collateral, to Equal Colla<g ref="char:EOLhyphen"/>teral; Unequal to Unequal; for when the Comparison is of things in the same order, then not only the Degree, but the reason for the most part is the same too.</p>
+               <p>
+                  <note place="margin">1. Leviti<g ref="char:EOLhyphen"/>cal Law. Of Cosin Germans.</note>The Case of Cosin Germans is no ways reached at as to a Pro<g ref="char:EOLhyphen"/>hibition in the <hi>Levitical</hi> Law, be<g ref="char:EOLhyphen"/>cause there is no Degree equally near unto it that is forbidden, except (as before) of such Per<g ref="char:EOLhyphen"/>sons as are as it were Parents, or in the place of Parents.</p>
+               <p>There are Instances of the Mar<g ref="char:EOLhyphen"/>riage of Cosin Germans in Scrip<g ref="char:EOLhyphen"/>ture,<note place="margin">Instances.</note> as <hi>Jacob</hi> Married his Cosin German <hi>Rachel,</hi> the Daughter of his Uncle <hi>Laban. Zelophehads</hi>
+                  <pb n="7" facs="tcp:49286:6"/>Daughters Married their Fathers Brothers Sons.<note place="margin">Num. 3.6.</note> The Virgin <hi>Mary</hi> was Married to her Cosin Ger<g ref="char:EOLhyphen"/>man <hi>Joseph,</hi> who was the Legal Son of <hi>Heli,</hi>
+                  <note place="margin">Luk. 3 23. Math. 1.</note> but the Natural Son of <hi>Jacob.</hi> Now <hi>Heli</hi> and <hi>Jacob</hi> were Brethren the Sons of <hi>Mat<g ref="char:EOLhyphen"/>than,</hi> who was Grand-Father to <hi>Joseph</hi> and <hi>Mary.</hi>
+               </p>
+               <p>
+                  <note place="margin">2. The Christian Law.</note>The Christian Law or the Gos<g ref="char:EOLhyphen"/>pel, no where forbids these Mar<g ref="char:EOLhyphen"/>riages.</p>
+               <p>Christ saith, <hi>A man shall leave his Father and Mother, and cleav to his Wife, and they two shall be one flesh.</hi>
+               </p>
+               <p>By Father and Mother, are for<g ref="char:EOLhyphen"/>bidden the Marriage of Parents and Children.</p>
+               <p>By cleaving to his Wife, are forbidden Adultery, with ano<g ref="char:EOLhyphen"/>ther mans Wife, and Extrauup<g ref="char:EOLhyphen"/>tial Pollutions, and <hi>Concubitus Masculorum.</hi>
+               </p>
+               <pb n="8" facs="tcp:49286:7"/>
+               <p> By <hi>they Two shall be one Flesh,</hi> is forbidden <hi>Polygamy,</hi> and the mixture of several Species of Flesh, as Bestiality, <hi>&amp;c.</hi>
+               </p>
+               <p>
+                  <note place="margin">3. Publick Honesty and good Report.</note>As for Publick Honesty and Good Report which is required in all things, especially in Marri<g ref="char:EOLhyphen"/>ages there is nothing contrary to these in the Marriage of Cosin Germans; I do not mean false Love, or weak Fancies and Esti<g ref="char:EOLhyphen"/>mations of Vulgar People, con<g ref="char:EOLhyphen"/>cerning publick Fame or Hone<g ref="char:EOLhyphen"/>sty. But I hold that the Laws of God and of Men, and the uni<g ref="char:EOLhyphen"/>versal Judgments of the most Ci<g ref="char:EOLhyphen"/>vil part of Mankind, are the mea<g ref="char:EOLhyphen"/>sures of publick Honesty.</p>
+               <p>In the Oration of <hi>Sp. Ligusti<g ref="char:EOLhyphen"/>nus in Livy,</hi>
+                  <note place="margin">Instances, Liv. Au. l. 11.</note> he saith, <hi>Pater mihi uxorem dedit fratris sui filiam. Cicero pro Cluentio</hi> sayes, That his Sister Married <hi>Melinus,</hi> her Cosin German: <hi>Augustus Caesar</hi> gave his
+<pb n="9" facs="tcp:49286:7"/>Daughter <hi>Julia,</hi> to <hi>Marcellus</hi> the Son of his Sister <hi>Octavia.</hi> The brave <hi>Brutus</hi> was married to <hi>Portia</hi> the Daughter of his wise Unkle <hi>Cato. Marcus Antonius</hi> the Phi<g ref="char:EOLhyphen"/>losopher was married to his Cou<g ref="char:EOLhyphen"/>sin German <hi>Annia Faustina Con<g ref="char:EOLhyphen"/>stantius</hi> the Emperor, gave his Si<g ref="char:EOLhyphen"/>ster to her Cousin <hi>Julianus v. l.</hi> 1. §. <hi>Duorum Just. de Nuptiis.</hi> &amp; <hi>L.</hi> 3. <hi>l. Non solum</hi> § 1. <hi>F.</hi> 1. <hi>de Ritu Nupti<g ref="char:EOLhyphen"/>arum F. L. si Nepot.</hi> 3. <hi>de Ritu Nup<g ref="char:EOLhyphen"/>tiarum. L. Conditioni</hi> 2. <hi>C. de Ju<g ref="char:EOLhyphen"/>stit. &amp; Sulst.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Obj. </seg>
+                  </label>
+                  <hi>Theodosius</hi> (being over-ruled by S. <hi>Ambrose</hi>) was the first that forbad these Marriages. <hi>Tantum pudori trbuens continentiae, ut consobri<g ref="char:EOLhyphen"/>narum nuptias vetuerit tanquam So<g ref="char:EOLhyphen"/>rorum.</hi>
+                  <note place="margin">Aur. <gap reason="illegible: faint" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>i<g ref="char:EOLhyphen"/>ctor.</note>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Sol. </seg>
+                  </label> This was abrogated by <hi>Arca<g ref="char:EOLhyphen"/>dius</hi> &amp; <hi>Honorius</hi> his Son. <hi>v. Justin. l. Celebrandis C. de Nuptiis. Revo<g ref="char:EOLhyphen"/>cata prisci Juris Authoritate, restin<g ref="char:EOLhyphen"/>ctis{que}
+<pb n="10" facs="tcp:49286:8"/>calumniarum fomentis Ma<g ref="char:EOLhyphen"/>trimonium inter Consobrinos habea<g ref="char:EOLhyphen"/>tur.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Obj. </seg>
+                  </label> In the <hi>Theodosian Code,</hi> the Law seems to say otherwise, in the Titles. <hi>Si Nuptiae ex Rescripto pe<g ref="char:EOLhyphen"/>tantur, &amp; T. de Incestis Nuptiis.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Sol. </seg>
+                  </label>
+                  <hi>Alaric</hi> King of the <hi>Goths,</hi> com<g ref="char:EOLhyphen"/>manded <hi>Arrianus</hi> to make a Bre<g ref="char:EOLhyphen"/>viary of the <hi>Code,</hi> and corrupted this Law, fitting it to the customs of his own Countrey: So did he in the Epitome of <hi>Caius</hi> his Institu<g ref="char:EOLhyphen"/>tions. So did <hi>Theophilus,</hi> till <hi>Cur<g ref="char:EOLhyphen"/>tius</hi> his Latine Interpreter needed him.</p>
+               <p>
+                  <note place="margin">4. The Ca<g ref="char:EOLhyphen"/>non Law.</note>As for the Canon Law, that doth now forbid it, of old it was not so. In the Canons of the Apostles are these Instances, He that Marries two Sisters, or his Brothers Widow or Daughter, may not be received into Holy Orders, and no more: But about
+<pb n="11" facs="tcp:49286:8"/>St. <hi>Austins</hi> time: <hi>Nondum prohi<g ref="char:EOLhyphen"/>buerat Lex humana, Divina nun<g ref="char:EOLhyphen"/>quam.</hi> In the Synod of <hi>Paris,</hi> almost Six Hundred Years after Christ, these are called unlawful Marriages, <hi>Quae contra Praecep<g ref="char:EOLhyphen"/>tum Domini contrahuntur,</hi> none else. In the old Canons all the prohibited Instances are in this Table.</p>
+               <q>
+                  <l>Nata, Soror, Neptis, Matertera Fratris &amp; Ʋxor.</l>
+                  <l>Et Patris Conjux, Mater, Privig<g ref="char:EOLhyphen"/>na,<note place="margin">C. Extr. de Rest. Spons.</note> Noverca.</l>
+                  <l>Ʋxoris{que} Soror, Privigni Nata, Nurus{que}</l>
+                  <l>At{que} Soror Patris conjungi Lege vetantur.</l>
+               </q>
+               <p>But about this time were sad Assemblies of Bishops; because the Nations were corrupted with the <hi>Goths</hi> and <hi>Vandals,</hi> and they were willing to comply with the Conquerors, they thought fit to
+<pb n="12" facs="tcp:49286:9"/>prevent Incestuous Marriages of Brother and Sister, to make this Barr a <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> of forbiding Cou<g ref="char:EOLhyphen"/>sin Germans to Marry.</p>
+               <p>These Prohibitions of Popes began with the first Degree of Cousins called Germans, then to the Second, Third and Fourth Degrees of Cousins so often re<g ref="char:EOLhyphen"/>moved, then to Seven, then to Six and Four again, as in the Sy<g ref="char:EOLhyphen"/>nod at <hi>Caballian.</hi> Sometimes <hi>us{que} dum generatio agnoscitur, aut me<g ref="char:EOLhyphen"/>moria retinetur.</hi> Their Reasons are bald enough;<note place="margin">For 4 De<g ref="char:EOLhyphen"/>grees.</note> because but 4 Humours in the Body, but 4 E<g ref="char:EOLhyphen"/>lements of the World, but 4 Fin<g ref="char:EOLhyphen"/>gers and a Thumb on a Mans Hand, The Thumb is the Stirps or Common Pajent, and the Life of Man is but a Span long, but 4 Quarters of the World.</p>
+               <p>
+                  <note place="margin">For 7 De<g ref="char:EOLhyphen"/>grees.</note>Because there are but 3 Facul<g ref="char:EOLhyphen"/>ties of the Soul; which being
+<gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="13" facs="tcp:49286:10"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="12" facs="tcp:49286:10"/>
+                  <pb n="13" facs="tcp:49286:9"/> joyned to the 4 Humours of the Body make 7: And therefore we must abstain to the Seventh Ge<g ref="char:EOLhyphen"/>nerations, 1. to Cousins Seven times removed. These were their mighty Reasons against all Man<g ref="char:EOLhyphen"/>kind to prohibite these Marriages. One more let us not forget, as the most doubty of all: Because, by the Civil Law, Inheritances des<g ref="char:EOLhyphen"/>cend but to the 7<seg rend="sup">th.</seg> Degree: A false Ground; because Inheritan<g ref="char:EOLhyphen"/>ces descend unto the 10<seg rend="sup">th.</seg> Degree. But if not, they reckon their Degrees otherwise than the Ci<g ref="char:EOLhyphen"/>vil Law doth, and consequently forbid Marriages of Cousins to the 5<seg rend="sup">th.</seg> Degree Exclusively; be<g ref="char:EOLhyphen"/>cause Cousin Germans by them are reckoned but in the 2<seg rend="sup">d.</seg> De<g ref="char:EOLhyphen"/>gree: Whereas by the Civil Law Law they are in the 4<seg rend="sup">th.</seg> Degree: For by that Law there are so ma<g ref="char:EOLhyphen"/>ny degrees as there are Persons
+<pb n="14" facs="tcp:49286:11"/>beside the Common Stock; but by the Canon Law, so far as ei<g ref="char:EOLhyphen"/>ther of the Persons is distant from the Common Parent, so far he is distant from the other in the E<g ref="char:EOLhyphen"/>qual Line. Sometimes that which is lawful hath been prohibited, lest men should run into that which is unlawful: This is a mat<g ref="char:EOLhyphen"/>ter of Prudence only, not of what is lawful or not. Such Laws are Drains for Money. Gold will purchase Leaden Dispensations. And so it was when the Civil Law was Tuned to the Key of the Canon Law, and both to the Aire of the <hi>Gothes</hi> and <hi>Vandals.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Obj. </seg>
+                  </label> Second Cousins are forbidden to Marry, <hi>Ergo,</hi> first Cousins much more, though they be not expresly named.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Sol. </seg>
+                  </label> None ever forbad second Cou<g ref="char:EOLhyphen"/>sins to Marry, but they that for<g ref="char:EOLhyphen"/>bad first Cousins to Marry. It is
+<pb n="15" facs="tcp:49286:11"/>a Groundless Fancy, and Vulgar Error; <hi>Isaac</hi> Married his second Cousin. and that is more than can be said against it. And this is Answer enough for such a trifling Objection.</p>
+            </div>
+         </div>
+         <div type="treatise">
+            <pb n="16" facs="tcp:49286:12"/>
+            <head>OF Consanguinity. OR, <hi>KINDRED by BLOOD.</hi>
+            </head>
+            <p>THe Degrees of Consanguini<g ref="char:EOLhyphen"/>ty, and their different Com<g ref="char:EOLhyphen"/>putation between the <hi>Civilians</hi> and <hi>Canonists,</hi> are better under<g ref="char:EOLhyphen"/>stood by the Inspection of a Pe<g ref="char:EOLhyphen"/>digree, than by Writing or Speak<g ref="char:EOLhyphen"/>ing; yet <hi>Justinian</hi> gives good Directions, <hi>Just. l.</hi> 1. <hi>Tit. de Nup<g ref="char:EOLhyphen"/>tiis,</hi> and <hi>lib.</hi> 3. <hi>Tit.</hi> 6. <hi>de Gradibus Cognatorum.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Degree. </seg>1</label> The first Degree of Consan<g ref="char:EOLhyphen"/>guinity is in the Right Line As<g ref="char:EOLhyphen"/>cending and Descending, where all Degrees of that Line are for<g ref="char:EOLhyphen"/>bidden.</p>
+            <pb n="17" facs="tcp:49286:12"/>
+            <p> So that upwards a Man may not Marry his Mother, Grandmo<g ref="char:EOLhyphen"/>ther, or Great Grandmother, <hi>&amp;c.</hi> And downwards, he may not Marry his Daughter, Grand<g ref="char:EOLhyphen"/>daughter, no Great Grand-daugh<g ref="char:EOLhyphen"/>ter, <hi>&amp;c.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reason. </seg>
+               </label> The Reason is, Because in all these Cases one of the Parties is a Parent, or a Child by Blood: That is, The Woman is either a Mother, or a Daughter to the Man.</p>
+            <p>This was <hi>Lots</hi> Incest,<note place="margin">Instances.</note> and <hi>Reu<g ref="char:EOLhyphen"/>bens</hi> Incest, <hi>v. Gen.</hi> 19, 33. <hi>Gen.</hi> 25.22. <hi>Gen.</hi> 38.10. <hi>Lev.</hi> 18.7. <hi>&amp;c. Lev.</hi> 20.11, 12, <hi>&amp;c. Ez.</hi> 22.13. <hi>Am.</hi> 2.6.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Degree. </seg>2</label> The second Degree of Con<g ref="char:EOLhyphen"/>sanguinity is in the Side Line e<g ref="char:EOLhyphen"/>qual, in which all Propinquity, or nearness by Blood is forbidden to the Second or Third Degree only.</p>
+            <pb n="18" facs="tcp:49286:13"/>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reason. </seg>
+               </label> The Reason is, Because Pro<g ref="char:EOLhyphen"/>pinquity, or Nearness consisteth but in Two or Three Degrees, as he is my near Neighbour that dwelleth but two or three Houses from me. And the <hi>Levitical</hi> Law Reckons Propinquity or Nearness no further than the third Degree. The rest she accounts Remote.</p>
+            <p>So that in the second Degree of the Side-equal, or Collateral Line, (the <hi>Civilians</hi> compute in that Line no first Degree at all) a Man may not Marry his Sister, nor his Sisters Daughter, <hi>&amp;c.</hi> for she is his near Kinswoman, either by the whole Blood, or by the half Blood.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reason. </seg>
+               </label> The Reason is, Because in all these Cases the Parties are always Brother and Sister; that is, the Woman is always Sister to the Man, and the Man Brother to the Woman by Blood.</p>
+            <pb n="19" facs="tcp:49286:13"/>
+            <p> This was <hi>Amons</hi> Incest with <hi>Tamar,</hi> his Sister by the half Blood;<note place="margin">Instances.</note> for they were both Children to <hi>David</hi> by several Venters.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Degree. </seg>3</label> The third Degree is in the Side<g ref="char:EOLhyphen"/>unequal Line or Linage upwards or downwards: In which up<g ref="char:EOLhyphen"/>wards a Man may not Marry his Aunt nor Great Aunt, <hi>&amp;c.</hi> And downwards a Man may not Mar<g ref="char:EOLhyphen"/>ry his Neece, or his Neeces Daugh<g ref="char:EOLhyphen"/>ter, <hi>&amp;c,</hi>
+            </p>
+            <p>As when upwards I lie with my Aunt, whether she be my Fa<g ref="char:EOLhyphen"/>thers Sister or Mothers Sister by Blood: Or downwards I lie with my Neece whether she be my Brothers Daughter or my Sisters Daughter.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reason. </seg>
+               </label> The Reason is, Because in all these Cases the Woman is still either Aunt or Neece to the Man.</p>
+            <pb n="20" facs="tcp:49286:14"/>
+            <p> The Computation of Degrees in the Right Line.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> The first Degree in the Right Line is from me to my Father or Grandfather, and all my Parents upward, or from me to my Daugh<g ref="char:EOLhyphen"/>ter or Grand-daughter, and all my Children downward.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> The second Degree in the Side-Line Equal is, from me upward to my Father one Degree, and from my Father downward to his Daughter, which is my Sister, two Degrees.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reason. </seg>
+               </label> Now the Reason why in the Side-Line the Computation pro<g ref="char:EOLhyphen"/>ceedeth not directly from me to my Sister; but fetcheth a com<g ref="char:EOLhyphen"/>pass about upwards and down<g ref="char:EOLhyphen"/>wards, and passeth through our Parents is, Because the Consan<g ref="char:EOLhyphen"/>guinity between me and my Sister
+<pb n="21" facs="tcp:49286:14"/>is not <hi>Immediate, Proximous</hi> and <hi>Prime</hi> in the first Degree, but <hi>Mediate, Propinquous</hi> and <hi>Secun<g ref="char:EOLhyphen"/>dary,</hi> through and by the means of two common Parents:</p>
+            <p>For no Blood is derived or passed from me to my Sister, nor from her to me; but Blood is de<g ref="char:EOLhyphen"/>rived or passed from our Parents to each of us, and in us their Blood is parted.</p>
+            <p>My Mother therefore, who derives her Blood to me immedi<g ref="char:EOLhyphen"/>ately, must needs be more Con<g ref="char:EOLhyphen"/>sanguineous, or nearer of Kin to me than my Sister, who derives no Blood at all to me, but only takes part of the same Blood with me. And my Daughter, who derives her Blood immediately from me, must needs be more Consanguineous or nearer of Kin to me than my Sister, who de<g ref="char:EOLhyphen"/>rives no Blood at all from me.</p>
+            <pb n="22" facs="tcp:49286:15"/>
+            <p> My Mother therefore upwards, and my Daughter downwards are the Females of nearest Consan<g ref="char:EOLhyphen"/>guinity or Kindred to me: And therefore they make the first De<g ref="char:EOLhyphen"/>gree; for that which in order is the nearest or next to me, must needs be the first from me: And Consequently my Sister being not so near to me in Consanguinity, Kindred or Blood, as is my Mo<g ref="char:EOLhyphen"/>ther and Daughter, cannot be computed in the first Degree; and therefore must either be in the second Degree, or in a De<g ref="char:EOLhyphen"/>gree more remote, or else in no Degree at all.</p>
+            <p>Hence it is, that in many Accu<g ref="char:EOLhyphen"/>rate Pedigrees the Lines are drawn and visibly expressed in the right Line or Linage only, and they are drawn downwards only ac<g ref="char:EOLhyphen"/>cording to the Descent from the Parents to the Children.</p>
+            <pb n="23" facs="tcp:49286:15"/>
+            <p> Because the course of the Blood which makes Consanguinity, pass<g ref="char:EOLhyphen"/>eth only by Descent downwards.</p>
+            <p>But sideward in the Side-Line or Linage, no Lines at all are vi<g ref="char:EOLhyphen"/>sibly drawn and expressed; be<g ref="char:EOLhyphen"/>cause the Blood hath no passage at all that way; for there was none at all, neither from the Bro<g ref="char:EOLhyphen"/>ther to the Sister, nor from her to him.</p>
+            <p>So that they partake not of one anothers Blood, but both par<g ref="char:EOLhyphen"/>take of their Parents Blood, which descends in Common to them both, and in them is parted and divided into several Channels, making several descents; yet for Computation sake there are Lines conveyed sideward in the Side-Line or Linage, not Lines real and visible, but only imaginative and putative; such as Astrono<g ref="char:EOLhyphen"/>mers conceive in Heaven, and
+<pb n="24" facs="tcp:49286:16"/>Geographers on Earth, calling them Meridians or Parallels, which are no Realities visible or sensible, but only Imaginations or Fictions in Astronomy or Geography.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Degree. </seg>3</label> The third Degree sideward in the Side-Line Unequal is thus, for my Uncle or Aunt. From me to my Father or Mother upwards is one Degree, then from my Fa<g ref="char:EOLhyphen"/>ther and Mother to their Father and Mother, or my Grandfather and Grandmother is two Degrees, then downwards to the Son or Daughter of my Grandfather or Grandmother, which is sideward to my Father and Mother, which are their Brother and Sister, which are my Uncle and Aunt is Three Degrees.</p>
+            <p>And the Brother and Sister of my Father or Mother is my Uncle and Aunt.</p>
+            <pb n="25" facs="tcp:49286:16"/>
+            <p> And for my Nephew and Neece the Computation is thus; from me to my Father or Mother up<g ref="char:EOLhyphen"/>wards is one Degree, from my Father and Mother, then down<g ref="char:EOLhyphen"/>wards to their Son and Daughter, (which is sideward to me) which are my Brother and Sister, is two Degrees, and from my Brother and Sister downwards again to their Son and Daughter is Three Degrees.</p>
+            <p>And the Son or Daughter of my Brother or Sister is my Ne<g ref="char:EOLhyphen"/>phew or Neece.</p>
+            <p>Sideward in the Side-Line or Linage no more Degrees are for<g ref="char:EOLhyphen"/>bidden for Marriage beyond the Third Degree, either by the Law of <hi>Moses,</hi> or by the Civil Law, or by the Law of our Church.</p>
+            <p>Because in these Lanes the De<g ref="char:EOLhyphen"/>grees only of Propinquity or Near<g ref="char:EOLhyphen"/>ness are forbidden; and Propin<g ref="char:EOLhyphen"/>quity
+<pb n="26" facs="tcp:49286:17"/>or Nearness consisteth but in Three Degrees, determining in the Third.</p>
+            <p>And therefore Persons in the Fourth Degree sideward, and much more in the Fifth or Sixth Degree, <hi>&amp;c.</hi> may lawfully Marry: Because such Persons are in no Degree of Propinquity, seeing Propinquity comprehendeth only but Three Degrees; and conse<g ref="char:EOLhyphen"/>quently first Cousins, or Cousin Germans, or Brothers and Sisters Children may lawfully Marry, and many times do so: And there<g ref="char:EOLhyphen"/>fore a Man may Marry his Uncles Daughter, or his Aunts Daugh<g ref="char:EOLhyphen"/>ter; for my Uncles or my Aunts Daughter is is my Cousin German.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Degree. </seg>4</label> The Fourth Degree sideward between Brothers and Sisters Children, or Cousin Germans is thus: from me upward to my Father or Mother is one Degree,
+<pb n="27" facs="tcp:49286:17"/>from my Father or Mother to their Father or Mother, or my Grandfather or Grandmother is Two Degrees: Then from my Grandfather or Grandmother, which are the common Stock downwards to their Son or Daughter, which sideward are my Father and Mother, Brother and Sister, and my Uncle and Aunt, is Three Degrees; &amp; from my Uncle and Aunt downwards to their Son or Daughter, which are my Cousin Germans, is Four De<g ref="char:EOLhyphen"/>grees.</p>
+            <p>This Computation of Degrees is according to the Civil Law, whose Rule is this, <hi>Tot sunt Gra<g ref="char:EOLhyphen"/>dus Cognationis, quot sunt Genera<g ref="char:EOLhyphen"/>tiones,</hi> 1. So many Generations so many Degrees.</p>
+            <p>The Computation of the Ca<g ref="char:EOLhyphen"/>non Law is, <hi>Quoto Gradu unus<g ref="char:EOLhyphen"/>quis{que} eorum distat a communi
+<pb n="28" facs="tcp:49286:18"/>stipite, eodem Gradu distant inter se,</hi> 1. In what Degrees the Par<g ref="char:EOLhyphen"/>ties are distant from the Com<g ref="char:EOLhyphen"/>mon Stock, in the same Degree they are distant between them<g ref="char:EOLhyphen"/>selves.</p>
+            <p>So that Brothers and Sisters Children, that by the Computa<g ref="char:EOLhyphen"/>tion of the Civil Law differ Four Degrees from each other, by the Canon Law they differ but Two Degrees from each other.</p>
+            <p>So that the Civil Law consi<g ref="char:EOLhyphen"/>dereth Degrees, especially for Successions of Inheritances from Person to Person, numbering the Degrees according to single Per<g ref="char:EOLhyphen"/>sons, only by one Degree at once, ascending to the next or nearest Common Stock or Parent, and thence descending to the Person whose Degree is required. But the Cannon Law considereth rather the Degrees of Marriage
+<pb n="29" facs="tcp:49286:18"/>made by the consent of Two Persons, and for that reason joyn<g ref="char:EOLhyphen"/>eth Two Persons together in the numbring of Degrees.</p>
+            <p>As to Cousin Germans there<g ref="char:EOLhyphen"/>fore, (to conclude) though some Divines and some Lawyers here in <hi>England</hi> do scruple at the law<g ref="char:EOLhyphen"/>fullness of their Marriage; yet they scruple it without alleadg<g ref="char:EOLhyphen"/>ing any sound Reason, but rely<g ref="char:EOLhyphen"/>ing only upon Tradition, and the long practice of the Cano<g ref="char:EOLhyphen"/>nists, who have forbidden those Marriages for meer Lucre, to Gain Money for the Licencing of them, by Dispensations, which are denyed to none, but are grant<g ref="char:EOLhyphen"/>ed of course, for Money, to all that desire them. But from the beginning it was not so, neither ought it to be so; because the Rule holds good, <hi>Quod ab initio non valuit, illud tractu Temporis
+<pb n="30" facs="tcp:49286:19"/>convalescere non potest:</hi> That which was invalid from the beginning, cannot be made valid by length of Time.</p>
+         </div>
+         <div type="treatise">
+            <pb n="31" facs="tcp:49286:19"/>
+            <head>OF Affinity. OR, <hi>Alliance by Marriage.</hi>
+            </head>
+            <p>AFfinity is grounded upon Law and Marriage, as Con<g ref="char:EOLhyphen"/>sanguinity is grounded upon Blood and Birth: And therefore there is a near resemblance be<g ref="char:EOLhyphen"/>tween them. And though in Affi<g ref="char:EOLhyphen"/>nity there be properly no De<g ref="char:EOLhyphen"/>grees, yet Degrees are Assigned to it, and are computed according to the Degrees of Consanguinity.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Degree. </seg>1</label> The first Degree of Affinity is in the Right Line Ascending and Descending, where all Degrees are forbidden.</p>
+            <pb n="32" facs="tcp:49286:20"/>
+            <p> So that upwards I may not Mar<g ref="char:EOLhyphen"/>ry my Fathers second Wife, and downwards I may not Marry my Sons Wife.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reason. </seg>
+               </label> The Reason is, Because in all these Cases the Party Married, is a Parent by Marriage to the Par<g ref="char:EOLhyphen"/>ty marrying: That is, the Woman is either a Mother in Law, or a Daughter in Law to the Man. As in Consanguinity, the Woman was either a Mother in Nature, or a Daughter in Nature to the Man.</p>
+            <p>This was <hi>Judas</hi> his Incest with <hi>Tamar</hi> his Sons Wife,<note place="margin">Instances. <hi>Gen.</hi> 38.18. 1 <hi>Cor.</hi> 5.1.</note> and this was the <hi>Corinthians</hi> Incest with his Fa<g ref="char:EOLhyphen"/>thers Wife.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Degree. </seg>2</label> The second Degree of Affinity is in the Side or Collateral Line Equal.</p>
+            <p>So that in the second Degree sideward I may not Marry my Brothers Wife, or my Sister in
+<pb n="33" facs="tcp:49286:20"/>Law, nor my Wives Sister, or my Sister in Law.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reason. </seg>
+               </label> The Reason is, Because in all these Cases the Woman is still Sister in Law to the Man, or the Parties Married are Brothers and Sisters in Law, as in Consanguinity the Parties are Brothers and Sisters by Nature.</p>
+            <p>This was <hi>Jacobs</hi> Incest in Mar<g ref="char:EOLhyphen"/>rying with <hi>Rachel</hi> his Sister in Law;<note place="margin">Instances.</note> for she was own Sister to <hi>Leah</hi> his first Wife. This was <hi>Herods</hi> Incest, who Marryed with <hi>Herodias</hi> his Brother <hi>Philips</hi> Wife. And this was <hi>Henry</hi> the 8<seg rend="sup">th.</seg> his Case, who Marryed <hi>Katharine</hi> his Brother <hi>Arthurs</hi> Wife. <hi>v. Gen.</hi> 29.30. <hi>Lev.</hi> 18.9, 11, 16. <hi>Lev.</hi> 20.17, 21. 2 <hi>Sam.</hi> 13.10, 11. <hi>Math.</hi> 14.3, 4.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Degree. </seg>3</label> The Third Degree of Affinity is in the Side-Line Unequal.</p>
+            <pb n="34" facs="tcp:49286:21"/>
+            <p> So that in the Third Degree upward I may not Marry my Uncles Wife, or my Aunt in Law, nor Downwards my Nephews Wife, or my Neice in Law.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reason. </seg>
+               </label> The Reason is, Because in all these Cases the Woman is still either Aunt or Neece in Law to the Man by Marriage,<note place="margin">
+                  <gap reason="illegible: faint" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </note> and so <hi>vice ve sa,</hi> or the Parties Married are Uncle or Aunt, or Nephew and Neece in Law, as in Consanguinity they are Uncles, Aunts, Nephews and Neeces in Nature.</p>
+            <p>Now Affinity ariseth to me Two ways; first by my own Kin<g ref="char:EOLhyphen"/>dred, 1. Kinsmen or Kinswomen when they are Marryed, or by my Wifes Kinsmen or Kinswomen when I my self am Marryed.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> By my own Kindred, as</p>
+            <p n="1">1. By the Wives of my Male Kindred: Therefore the Wives
+<pb n="35" facs="tcp:49286:21"/>of my Kinsmen by Consanguini<g ref="char:EOLhyphen"/>ty, are my Affines or Allies in the same Degree of Affinity, where<g ref="char:EOLhyphen"/>in my several Kinsmen and I stood by Consaguinity or Kin<g ref="char:EOLhyphen"/>dred.</p>
+            <p>So upwards my Fathers Se<g ref="char:EOLhyphen"/>cond Wife, or my Stepmother, or Mother in Law, are my Affines or Ally in the first Degree of Affinity or Alliance, because my Father and I are in the first Degree of Consanguinity or Kindred, and downwards my Sons Wife, or my Daughter in Law is my Affines or Ally in the first Degree of Affinity or Hlliance, because my Son and I are in the first Degree of Consanguinity or Kindred: And sideward my Brothers Wife, or Sister in Law, is my Affines or Ally in the Second Degree; be<g ref="char:EOLhyphen"/>cause my Brother and I are in the Second Degree of Consanguinity
+<pb n="36" facs="tcp:49286:22"/>or Kindred: And so farther side<g ref="char:EOLhyphen"/>ward in the Third Degree, my Uncles Wife, or my Aunt in Law is my Affine<gap reason="illegible: faint" extent="1 letter">
+                  <desc>•</desc>
+               </gap> or Ally in the Third Degree of Affinity; because my Uncle, and my Nephew, their Hus<g ref="char:EOLhyphen"/>bands, are my Kinsmen in the Third Degree of Consanguinity</p>
+            <p n="2">2. In like manner <hi>vice versa,</hi> the Husbands of my Kinswomen, <hi>i. e.</hi> of my Female Kindred by Con<g ref="char:EOLhyphen"/>sanguinity, are my Affines or Al<g ref="char:EOLhyphen"/>lies in the same Degree of Affinity wherein my several Kinswomen and I stood by Consanguinity or Kindred.</p>
+            <p>So upwards my Mothers Se<g ref="char:EOLhyphen"/>cond Husband, or my Father in Law is my Affines or Ally in the first Degree of Affinity or Alliance, because my Mother is my Kins<g ref="char:EOLhyphen"/>woman in the first Degree of Consanguinity or Kindred: And downwards my Daughters Hus<g ref="char:EOLhyphen"/>band,
+<pb n="37" facs="tcp:49286:22"/>or my Son in Law is my Affines or Ally in the first Degree of Affinity, because my Daugh<g ref="char:EOLhyphen"/>ter is my Kinswoman in the first Degree of Consanguinity: And sideward my Sisters Husband, or my Brother in Law, is my Affines or Ally in the second Degree of Affinity, because my Sister is my Kinswoman in the second Degree of Consanguinity; so likewise farther sideward in the Third De<g ref="char:EOLhyphen"/>gree, my Aunts Husband, or my Uncle by Marriage is my Affines or Ally in the Third Degree of Affinity; and my Neeces Hus<g ref="char:EOLhyphen"/>band, or my Nephew in Law, is my Affines or Ally in the Third Degree of Affinity, because corre<g ref="char:EOLhyphen"/>spondently my Aunt &amp; my Neece are Kinswomen in the Third De<g ref="char:EOLhyphen"/>gree of Consanguinity or Kindred.</p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2. By my Wives Kindred.</p>
+            <p>Besides the Affinity arising un<g ref="char:EOLhyphen"/>to
+<pb n="38" facs="tcp:49286:23"/>to me by my own Kindred, 1. My Kinsmen and my Kinswomen, there accrues unto me if I be Married a great Stock of Affinity by my Wife.</p>
+            <p>Yet a Man and his Wife are properly of no Kin at all, neither by Consanguinity, or Affinity in any Degree of Propinquity nei<g ref="char:EOLhyphen"/>ther before Marriage nor after.</p>
+            <p>Not before Marriage, because their Consanguinity or Affinity in any Degree of Propinquity would be so just an Impediment against their Marriage, that there<g ref="char:EOLhyphen"/>upon they might not Marry at all, or if they did Marry, their Mar<g ref="char:EOLhyphen"/>riage would be accounted unlaw<g ref="char:EOLhyphen"/>ful and Incestuous.</p>
+            <p>Nor after Marriage, because Consanguinity and Affinity lyeth necessarily between two distinct Persons, who make the distinct terms of those Relations.</p>
+            <p>But a Man and his Wife though
+<pb n="39" facs="tcp:49286:23"/>naturally and sensibly they are Two distinct Persons, yet Jurally and Legally in the Estimation of Law, they are no more two but one Person, or as the Scripture phraseth it. <hi>They Two are no more Two, but one Flesh.</hi>
+               <note place="margin">Mat. 19.6.</note>
+            </p>
+            <p>Again, after Marriage a man is nearer to his Wife than to his Fa<g ref="char:EOLhyphen"/>ther and Mother; for he must leave his Father and Mother and cleave to his Wife: But a Mans Consan<g ref="char:EOLhyphen"/>guinity with his Father and Mo<g ref="char:EOLhyphen"/>ther is in the first Degree, and therefore there can be no Degree of Consanguinity with his Wife, because there can be no Degree before the first.</p>
+            <p>The Marriage therefore of Man and Wife effecteth neither Con<g ref="char:EOLhyphen"/>sanguinity nor Affinity, but an Unity, which is a Conjunction more Entire, more Perfect, more Eminent, or more transcendent
+<pb n="40" facs="tcp:49286:24"/>than any Consanguinity or Affini<g ref="char:EOLhyphen"/>ty can possibly be.</p>
+            <p>And though this Union by Marriage be neither Consanguini<g ref="char:EOLhyphen"/>ty nor Affinity, yet without Marri<g ref="char:EOLhyphen"/>age there is no lawful Consangui<g ref="char:EOLhyphen"/>nity nor Affinity, but Bastardy.</p>
+            <p>For Marriage is the Ground and Cause of both those Relati<g ref="char:EOLhyphen"/>ons, it is the Seed and Root from whence they arise, and it is the Terme or Point from whence their Degrees are measured.</p>
+            <p>And Consequently a Man and his Wife are neither <hi>Affines</hi> nor <hi>Consanguinei,</hi> but <hi>Conjuges.</hi> That is, neither of Alliance or Blood, but Conjoyned in one Person in Law, and Yoke-Fellows in one Sacred Band of Wedlock.</p>
+            <p>And though in some passages of the Civil Law they be called Affines, yet that Appellation must be construed for a Metaphor and an Impropriety.</p>
+            <pb n="41" facs="tcp:49286:24"/>
+            <p> Now the Affinity that ariseth unto me by my Wife, is easily computed thus.</p>
+            <p>My Wives <hi>Consanguinei</hi> or Cousins are Affines or Allies to me, and are in the same Degree of Affinity to me, as they stand in Degree of Consanguinity to her.</p>
+            <p>And therefore my Wives own Father and Mother are my Father in Law and Mother in Law, which to me is Affinity in the first Degree of Consanguinity.</p>
+            <p>So my Wives own Brothers and Sisters are my Brothers in Law and Sisters in Law, which is Affinity in the Second Degree.</p>
+            <p>So my VVives own Uncles and Aunts are my Uncles in Law and Aunts in Law, which is Affinity in the Third Degree.</p>
+            <p>And <hi>vice versa</hi> my <hi>Consangui<g ref="char:EOLhyphen"/>nei</hi> or Cousins, are Affines or Al<g ref="char:EOLhyphen"/>lies to my VVife in the same De<g ref="char:EOLhyphen"/>grees
+<pb n="42" facs="tcp:49286:25"/>of Affinity as they are to me of Consanguinity.</p>
+            <p>And therefore my own Father and Mother are my VVives Father in Law and Mother in Law, which is Affinity in the first Degree.</p>
+            <p>So my own Brothers and Si<g ref="char:EOLhyphen"/>sters, are Brothers in Law and Si<g ref="char:EOLhyphen"/>sters in Law to my VVife, which is Affinity in the Second Degree.</p>
+            <p>And so my own Uncles and Aunts are Uncles in Law and Aunts in Law to my VVife, which is Affinity in the Third Degree.</p>
+            <p>In Affinity therefore as to the Point of Marriage; so many De<g ref="char:EOLhyphen"/>grees are forbidden, as there are restrained in Consanguinity by Blood.</p>
+            <p>As therefore in Consanguinity, I may not Marry any of my Kin<g ref="char:EOLhyphen"/>dred or Cousins in the First, Se<g ref="char:EOLhyphen"/>cond or Third Degree, so in Affinity I may not Marry any of
+<pb n="43" facs="tcp:49286:25"/>my Affines or Allies in the First, Second, or Third Degree. VVhe<g ref="char:EOLhyphen"/>ther that Affinity arise to me from my own Kindred, or from my VVives Kindred.</p>
+            <p>But it must be observed, That though Consanguinity by the means of Marriage breed Affini<g ref="char:EOLhyphen"/>ty, yet Affinity so bred, begets no farther Affinity.</p>
+            <p>And therefore though my VVives Kindred are Cousins or Allies to me, yet they are not Allies to my Kindred or Cousins.</p>
+            <p>So that though my VVives Father &amp; Mother are Allies to me, yet they are not Allies to my own Father &amp; Mother, nor to my own Brothers &amp; Sisters, nor to my own Sons and Daughters if I had any by my former VVife.</p>
+            <p>So likewise my VVives own Brothers and Sisters, though they be Allied to me, yet they are not
+<pb n="44" facs="tcp:49286:26"/>Allied to my own Father and Mother, nor to my own Brothers and Sisters, nor to my own Sons and Daughters, if I had any by my former VVife.</p>
+            <p>So again my VVives own Chil<g ref="char:EOLhyphen"/>dren, if she had any by a for<g ref="char:EOLhyphen"/>mer Husband, though they be Allies to me, yet they are not Allies to my own Father or Mo<g ref="char:EOLhyphen"/>ther, nor to my own Brothers and Sisters, nor to my own Sons and Daughters, if I had any by a for<g ref="char:EOLhyphen"/>mer VVife.</p>
+            <p>Hereupon as to the Point of Marriage it will follow, That respectively to me and my VVife Three sorts of Marriages may be lawful.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> First upward, That my own Father and my VVives Mother, their respective Conjuges being dead, may marry.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reason. </seg>
+               </label> Because though my own Fa<g ref="char:EOLhyphen"/>ther
+<pb n="45" facs="tcp:49286:26"/>be Allied to my VVife, yet he is no way Allyed to her own Mother: And her own Mother though she be Allied to me, yet she is no way Allied to my own Father.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly it will follow side<g ref="char:EOLhyphen"/>ward, That my own Brother, and my VVives own Sister may marry.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reason. </seg>
+               </label> Because though my VVives own Sister be Allied to me, yet she is no way Allied to my own Brother.</p>
+            <p>So likewise my own Sister and my VVives own Brother may marry for the same Reason.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly it will follow down<g ref="char:EOLhyphen"/>ward, That my own Son by a former VVife, and my VVives own Daughter by a former Hus<g ref="char:EOLhyphen"/>band may marry.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reason. </seg>
+               </label> Because my VVives own Daughter by another Husband,
+<pb n="46" facs="tcp:49286:27"/>though she be Allied to me, yet she is is not Allied to my own Son by another VVife.</p>
+            <p>And for the same Reason my Daughter by a former VVife may marry my VVives own Son by a former Husband.</p>
+            <p>In several Instances the Practice of these Three kinds of marria<g ref="char:EOLhyphen"/>ges hath been, and is known in the VVorld.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> First upward between the Pa<g ref="char:EOLhyphen"/>rents of a man and his VVife.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly sideward, between the Brothers and Sisters of a man and his VVife.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly downwards between the Children of a man and his Wife, which they had by their former Conjuges.</p>
+            <p>The Church of <hi>England</hi> in Case of marriage forbids no more De<g ref="char:EOLhyphen"/>grees of Consanguinity or Affini<g ref="char:EOLhyphen"/>ty than are forbidden in the Civil
+<pb n="47" facs="tcp:49286:27"/>Law. Yet she numbers and com<g ref="char:EOLhyphen"/>putes the Degrees somewhat o<g ref="char:EOLhyphen"/>therwise, following therein the Accompt of the Canon Law.</p>
+            <p>For she accounts Brothers and Sisters to be in the first Degree of the side Line; whereas the Civil Law accounts them in the second Degree of the side Line, and makes no first Degree in that Line at all.</p>
+            <p>But the matter comes all to one pass, as some Players at <hi>Gleek,</hi> reckon their Games dif<g ref="char:EOLhyphen"/>ferently, and yet accord well e<g ref="char:EOLhyphen"/>nough in the sum of the ac<g ref="char:EOLhyphen"/>count.</p>
+            <p>For if we consider the side Line alone by its self, as there are several Persons in it, then some of those Persons must needs make the first Degree of the side Line in respect of the Persons following therein. But if we
+<pb n="48" facs="tcp:49286:28"/>look upon the Standard of the Pedigree, or the Person whose Consanguinity is required, and from whom the Degrees thereof are measured and numbred up<g ref="char:EOLhyphen"/>ward, downward, and sideward, Then the Persons of the first De<g ref="char:EOLhyphen"/>gree in the side Line, must needs make the second Degree of Con<g ref="char:EOLhyphen"/>sanguinity in respect of the Stan<g ref="char:EOLhyphen"/>dard, or Person supposed whose Consanguinity is required, and from whom the Degrees are to be measured, according to the course whereby the Blood is de<g ref="char:EOLhyphen"/>rived, which doth constitute Consanguinity, as before hath been intimated.</p>
+            <p>The Levitical Laws for Mar<g ref="char:EOLhyphen"/>riage, do now bind Us of the Church of <hi>England;</hi> Yet this Truth is to be understood with some Caution.</p>
+            <pb n="49" facs="tcp:49286:28"/>
+            <p> For albeit these Laws do bind us, yet they bind us not by Di<g ref="char:EOLhyphen"/>vine Authority, because their Obligation by Divine Authority ceased, expired, and dyed at the death of Christ.</p>
+            <p>And thereupon all Christian Churches were left to their se<g ref="char:EOLhyphen"/>veral Liberties to follow such Rules, Orders, Measures, and Degrees, as by right Reason, and Christian Prudence should be established.</p>
+            <p>For the determination whereof the Church of <hi>England</hi> conceiv<g ref="char:EOLhyphen"/>ed it the most prudent course to make the Levitical Laws her President and Pattern; and at last assumed them, and adopted them into her own Canons and Statutes; reviving unto them an Obligation, not of Divine Au<g ref="char:EOLhyphen"/>thority, as once they had from God, but of Humane Authori<g ref="char:EOLhyphen"/>ty,
+<pb n="50" facs="tcp:49286:29"/>by the Secular and Ecclesi<g ref="char:EOLhyphen"/>astical Power of our Princes and Bishops after the Reformation.</p>
+            <p>Thus these very Levitical Laws for Marriage, whose Ob<g ref="char:EOLhyphen"/>ligation by Divine Authority was long since expired, were afterwards revived unto a new Obligation upon us by Humane Authority.</p>
+            <p>In like manner divers of the Civil Laws do now oblige us here in <hi>England,</hi> yet not by their original Constitution, nor by the Imperial Authority, ei<g ref="char:EOLhyphen"/>ther of <hi>Justinian,</hi> or any other Emperor, but by the Authority of our own State, which hath assumed and confirmed them into Laws as Obligatory here in <hi>England</hi> as they were in the Ro<g ref="char:EOLhyphen"/>man Empire.</p>
+            <trailer>The END.</trailer>
+            <pb facs="tcp:49286:29"/>
+         </div>
+      </body>
+   </text>
+</TEI>
